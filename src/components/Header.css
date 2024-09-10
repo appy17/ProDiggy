@@ -1,0 +1,127 @@
+/* header {
+    background-color: #f4b41a;
+    text-align: center;
+}
+
+.school-name{
+    font-size: 20px;
+    font-weight: 900;
+}
+.navbar {
+    margin-top: 20px;
+    width: 90%;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+.navbar-item {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+  }
+
+.dropdown-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.dropdown-menu {
+    position: absolute;
+    width: 150px;
+    background-color:#f4b41a;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+  
+.dropdown-item {
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+  
+.dropdown-item a {
+    color: black;
+    text-decoration: none;
+  } */
+
+  /* Basic Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem 2rem; */
+  background-color: rgb(199, 199, 157);
+  color: black;
+}
+
+.navbar-logo {
+  padding-left: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-item a {
+  color: black;
+  text-decoration: none;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-item {
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: #ff6347;
+}
+
+/* Dropdown Menu Styling */
+/* .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 150px;
+}
+
+.dropdown-menu.open {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 0.75rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #555;
+} */

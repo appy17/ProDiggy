@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+
+.box {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    margin-left: 150px;
+    padding: 20px;
+    border-radius: 10px;
+   
+    background-color: #e7bbbb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .feature-box:hover {
+    transform: translateY(-5px);
+  }

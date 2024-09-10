@@ -1,0 +1,17 @@
+.features-section {
+    margin: 40px 0;
+  }
+
+  .feature-box {
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-box:hover {
+    transform: translateY(-5px);
+  }

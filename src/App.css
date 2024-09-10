@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+footer {
+  background-color: #f4b41a;
+  padding: 10px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}

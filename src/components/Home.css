@@ -1,0 +1,44 @@
+/* src/components/Home.css */
+
+  .carousel .slide img {
+   width: 100%;
+   height:500px;
+  object-fit: cover;
+  }
+  
+  .legend {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .welcome-section {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .feature-box {
+    height: 350px;
+    text-align: center;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+   
+    background-color: #b34242;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .feature-box:hover {
+    transform: translateY(-5px);
+  }
+  
